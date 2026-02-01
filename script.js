@@ -1,3 +1,4 @@
+if (performance.navigation.type === 1) {
 var n1=Math.floor(Math.random()*6)+1;
 var randomDiceImage1="dice"+n1+".png";
 var randomSource1="./images/"+randomDiceImage1;
@@ -19,6 +20,9 @@ else if(n2>n1){
 }
 else{
     var draw=document.querySelector("h1").innerText="DRAW!"
+}}
+else{
+    document.querySelector("h1").innerText = "Refresh Me!";
 }
 
 
