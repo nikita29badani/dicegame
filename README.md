@@ -21,9 +21,4 @@ Every time the page is refreshed, both players get a new dice value and the winn
 
 - **HTML** – Structure of the game  
 - **CSS** – Styling  
-- **JavaScript** – Game logic & DOM manipulation  
-
-
-
-## 📂 Project Structure
-
+- **JavaScript** – Game logic & DOM manipulation 
